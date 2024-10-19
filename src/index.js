@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import minhasRotas from './rotasProject';
+import MinhasRotas from './MInhasRotas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <minhasRotas />
+  <MinhasRotas />
 );
