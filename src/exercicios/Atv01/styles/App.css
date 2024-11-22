@@ -1,0 +1,32 @@
+.letreiro {
+    width: 50%;                  
+    overflow: hidden;            
+    background-color: #222;       
+    padding: 10px 0;              
+    display: flex;
+    justify-content: center;      
+    border-radius: 2%;            
+    margin-bottom: 25px;
+    height: 30px;
+    align-items: center;
+}
+
+
+
+.letreiro h3 {
+    font-family: 'Fira Code', monospace;
+    font-size: 1.5em;
+    color: #ffcc00;                
+    white-space: nowrap;      
+    animation: moverLetreiro 3s linear infinite;
+}
+
+
+@keyframes moverLetreiro {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}

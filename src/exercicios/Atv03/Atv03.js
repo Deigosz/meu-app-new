@@ -1,11 +1,12 @@
+import Contador from "./components/Contador";
 import { Link } from "react-router-dom";
-import Counter from "./componentes/Contador";
+
 
 function Atv03() {
     return(
         <>
-            <h2>Atividade 03</h2>
-            <Counter/>
+            <h2>Atividade 03 - Contador</h2>
+            <Contador/>
             <Link to="/">Voltar</Link>
         </>
     );
