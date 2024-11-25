@@ -1,15 +1,18 @@
 import React from "react";
 
-
 function Profile({ name, image }) {
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+    <div style={{ textAlign: "center" }}>
       <img
         src={image}
         alt={`Foto de ${name}`}
-        style={{ width: "50px", height: "50px", borderRadius: "50%" }}
+        style={{
+          width: "100px",
+          height: "100px",
+          borderRadius: "50%",
+        }}
       />
-      <p>{name}</p>
+      <p style={{ fontSize: "16px", fontWeight: "bold" }}>{name}</p>
     </div>
   );
 }
