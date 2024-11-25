@@ -3,44 +3,45 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #333;  
-    color: white;
     font-family: 'Fira Code', monospace;  
+    color: white;
 }
 
 div {
     padding: 20px;
 }
 
+/* Mantém o estilo de h1 com a cor branca */
 h1 {
     text-align: center;
     font-size: 2em;
+    color: black; /* Cor branca */
 }
 
-
+/* Centraliza e mantém espaçamento uniforme nos itens */
 nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
 }
 
-
 nav ul li {
-    margin: 10px 0;
+    margin: 15px 0; /* Espaçamento uniforme entre os itens */
 }
-
 
 nav ul li a {
     text-decoration: none;
     color: #ffcc00;            
     background-color: #555;    
-    padding: 10px 20px;
+    padding: 10px 20px; /* Espaçamento interno dos links */
     border-radius: 5px;
     border: 2px solid #ffcc00; 
     font-size: 1.1em;
     display: inline-block;      
     transition: background-color 0.3s ease, color 0.3s ease; 
+    min-width: 200px; /* Define uma largura mínima para os itens */
+    text-align: center; /* Centraliza o texto dentro do botão */
 }
-
 
 nav ul li a:hover {
     background-color: #777;

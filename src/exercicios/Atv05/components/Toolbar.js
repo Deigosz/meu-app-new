@@ -1,10 +1,18 @@
 import React from 'react';
 
-function Toolbar({ onPlay, onUpload }) {
+function Toolbar() {
+  const handlePlay = () => {
+    alert('Playing!');
+  };
+
+  const handleUpload = () => {
+    alert('Uploading!');
+  };
+
   return (
     <div>
-      <button onClick={onPlay}>Play</button>
-      <button onClick={onUpload}>Upload</button>
+      <button onClick={handlePlay}>Play</button>
+      <button onClick={handleUpload}>Upload</button>
     </div>
   );
 }

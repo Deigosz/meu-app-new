@@ -29,8 +29,6 @@ body, html {
   color: #ffffff;
 }
 
-
-
 .container {
   width: 90%;
   max-width: 400px;
@@ -51,4 +49,25 @@ body, html {
   border: 2px dashed #666;
   border-radius: 10px;
   overflow: hidden; /* Garante que o ponto não saia da área */
+}
+
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #2a2a2a;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  color: #ffffff;
+}
+
+.list-item:hover {
+  background-color: #333333;
+  transform: translateY(-3px);
 }
