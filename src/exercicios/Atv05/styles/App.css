@@ -1,0 +1,54 @@
+body, html {
+  font-family: 'Fira Code', monospace;
+  background-color: #333;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; /* Garante altura total */
+  display: flex;
+  justify-content: center;
+  align-items: start; /* Alinha o conteúdo ao topo */
+  overflow-y: auto; /* Habilita rolagem vertical */
+}
+
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.container h1, .container h3 {
+  margin: 20px 0;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 40px auto; /* Espaçamento em relação ao topo */
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.moving-dot-container {
+  position: relative; /* Para delimitar o ponto */
+  width: 300px; /* Tamanho da área */
+  height: 300px;
+  margin: 20px auto; /* Centraliza no contêiner */
+  background-color: #444;
+  border: 2px dashed #666;
+  border-radius: 10px;
+  overflow: hidden; /* Garante que o ponto não saia da área */
+}
